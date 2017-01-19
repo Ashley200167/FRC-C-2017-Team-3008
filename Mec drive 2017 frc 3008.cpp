@@ -2,7 +2,9 @@
 
 /* I/O Setup */
 
+//Public:
 ROJoystick usb1(1);         // Joystick #1
+//Robot: new Joystick (1);
 
 ROPWM pwm0(0);
 ROPWM pwm1(1);
